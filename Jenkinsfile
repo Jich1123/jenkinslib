@@ -5,8 +5,8 @@
 def tools = new org.devops.tools()
 
 
-
-String workspace = "/opt/jenkins/workspace"
+//该目录一定存在且权限正常
+String workspace = "/var/jenkins_home/my_work"
 
 //Pipeline
 pipeline {
